@@ -18,7 +18,7 @@
       <a class="rvt-header-wrapper__skip-link" href="#main-content"
         >Skip to main content</a
       >
-      <div class="rvt-header">
+      <div class="rvt-header rvt-p-tb-xxs">
         <div class="rvt-container-xl">
           <div class="rvt-header-global__inner">
             <div class="rvt-header-global__logo-slot">
@@ -42,7 +42,7 @@
                 </div>
                 <!-- Website or application title -->
                 <div class="rvt-lockup__body">
-                  <span class="rvt-ts-16 rvt-text-bold">Beat The Heat</span>
+                  <span class="rvt-ts-18 rvt-text-bold">Beat The Heat</span>
                   <!-- <span class="rvt-lockup__subtitle">Indiana University</span> -->
                 </div>
               </a>
@@ -209,7 +209,14 @@
                               <a
                                 class="rvt-header-menu__submenu-link"
                                 href="./hvmt/methodology.html"
-                                >Data and Methodology</a
+                                >Methodology</a
+                              >
+                            </li>
+                            <li class="rvt-header-menu__submenu-item">
+                              <a
+                                class="rvt-header-menu__submenu-link"
+                                href="./hvmt/glossary.html"
+                                >Data Glossary</a
                               >
                             </li>
                             <li class="rvt-header-menu__submenu-item">
@@ -232,53 +239,36 @@
       </div>
     </header>
 
-    <main>
-      <div class="">
-        <!-- <img
-          class="hero-img"
-          src="./images/bth-hero-2.png"
-          alt="Hot sun background"
-        /> -->
-        <div class="">
-          <div class="rvt-border-bottom is-relative">
-            <img
-              src="./images/bth-hero-2.png"
-              alt=""
-              class="hero-img is-absolute"
-            />
-            <div class="hero-overlay is-absolute"></div>
-            <div class="rvt-container-lg rvt-p-tb-xl">
-              <div class="is-relative">
-                <div>
-                  <h1
-                    class="rvt-ts-md rvt-ts-xl-lg-up rvt-text-bold rvt-color-white"
-                  >
-                    By 2050, extreme heat events in Indiana are projected to
-                    triple
-                  </h1>
-                  <div class="rvt-hero__body rvt-hero__teaser rvt-color-white">
-                    <p>
-                      To help local governments develop and implement heat
-                      relief strategies and response protocols, ERI and
-                      the Indiana Office of Community and Rural Affairs (OCRA)
-                      launched
-                      <span class="rvt-text-bold">“Beat the Heat”</span>
-                      in 2021.
-                    </p>
-                    <div class="rvt-hero__actions">
-                      <a
-                        class="rvt-button rvt-button--danger-secondary"
-                        href="https://eri.iu.edu/who-we-work-with/local-governments/beat-the-heat.html"
-                        target="_blank"
-                        >Learn more about Beat The Heat</a
-                      >
-                    </div>
-                  </div>
-                </div>
+    <main class="rvt-flex rvt-flow rvt-flex-column is-relative">
+      <div>
+        <img src="./images/sun-3.png" alt="" class="hero-img is-absolute" />
+        <div class="hero-overlay is-absolute"></div>
+        <div class="rvt-container-lg ">
+          <div class="is-relative hero-body rvt-m-tb-xl">
+            <h1 class="rvt-ts-md rvt-ts-xl-lg-up rvt-text-bold rvt-color-white">
+              By 2050, extreme heat events in Indiana are projected to triple.
+            </h1>
+            <div class="rvt-hero__body rvt-ts-18 rvt-color-white">
+              <p>
+                To help local governments develop and implement heat relief
+                strategies and response protocols, ERI and the Indiana Office of
+                Community and Rural Affairs (OCRA) launched
+                <span class="rvt-text-bold">“Beat the Heat”</span>
+                in 2021.
+              </p>
+              <div class="rvt-hero__actions">
+                <a
+                  class="rvt-button rvt-button--danger-secondary"
+                  href="https://eri.iu.edu/who-we-work-with/local-governments/beat-the-heat.html"
+                  target="_blank"
+                  >Learn more about Beat The Heat</a
+                >
               </div>
             </div>
           </div>
-          <!-- <div class="rvt-hero__inner">
+        </div>
+      </div>
+      <!-- <div class="rvt-hero__inner">
             <div class="hero-body">
               <div class="rvt-p-all-3-sm">
                 <h1 class="rvt-ts-md rvt-ts-xl-lg-up rvt-text-bold">
@@ -305,16 +295,11 @@
               </div>
             </div>
           </div> -->
-        </div>
-      </div>
-      <!-- **********************************************************************
-        Billboard
-
-        -> rivet.iu.edu/components/billboard/
-    *********************************************************************** -->
       <section class="rvt-bg-orange-000">
-        <div class="rvt-container-lg rvt-p-tb-xl">
-          <div class="rvt-billboard rvt-billboard--reverse">
+        <div
+          class="rvt-container-lg rvt-m-top-xxl rvt-p-tb-xl rvt-flex-column rvt-justify-center"
+        >
+          <div class="rvt-billboard rvt-billboard--reverse rvt-p-tb-sm">
             <div class="rvt-billboard__image">
               <img
                 class="rvt-shadow-subtle"
@@ -326,12 +311,14 @@
               <h2 class="rvt-ts-lg rvt-text-medium">Mapping Tool</h2>
               <img src="./images/wave.png" width="60px" alt="heat wave" />
               <!-- <h2 class="rvt-billboard__title">Coming soon</h2> -->
-              <div class="rvt-p-tb-sm ">
-                <div class="rvt-text-medium">How vulnerable is your community to extreme heat?</div>
+              <div class="rvt-p-tb-sm">
+                <div class="rvt-text-medium">
+                  How vulnerable is your community to extreme heat?
+                </div>
                 <div class="rvt-m-tb-xs">
-                   Explore the
-                  Heat Vulnerability Mapping tool to identify priority areas and
-                  make targeted interventions in support of heat resilience.
+                  Explore the Heat Vulnerability Mapping tool to identify
+                  priority areas and make targeted interventions in support of
+                  heat resilience.
                 </div>
                 <a
                   class="rvt-button rvt-button--danger rvt-m-top-sm"
@@ -347,7 +334,7 @@
 
       <div class="rvt-container-lg rvt-p-tb-xl">
         <div class="rvt-text-center">
-          <h2 class="rvt-ts-lg rvt-text-medium">Tools & Resources</h2>
+          <h2 class="rvt-ts-lg rvt-text-medium">Tools &amp; Resources</h2>
           <img
             class="mx-auto"
             src="./images/wave.png"
@@ -365,7 +352,7 @@
         <div>
           <div class="rvt-p-top-xl rvt-m-top-sm">
             <ul class="rvt-row rvt-row--loose">
-              <li class="rvt-cols-4-sm [ rvt-flex rvt-m-bottom-lg ]">
+              <li class="rvt-cols-4-md [ rvt-flex rvt-m-bottom-lg ]">
                 <div class="rvt-card rvt-card--clickable">
                   <div class="rvt-card__image">
                     <img
@@ -379,7 +366,7 @@
                   >
                 </div>
               </li>
-              <li class="rvt-cols-4-sm [ rvt-flex rvt-m-bottom-xxl ]">
+              <li class="rvt-cols-4-md [ rvt-flex rvt-m-bottom-xxl ]">
                 <div class="rvt-card rvt-card--clickable">
                   <div class="rvt-card__image">
                     <img
@@ -391,7 +378,7 @@
                   <a href="#0" class="rvt-p-tb-sm rvt-ts-18">Focus Groups</a>
                 </div>
               </li>
-              <li class="rvt-cols-4-sm [ rvt-flex rvt-m-bottom-xxl ]">
+              <li class="rvt-cols-4-md [ rvt-flex rvt-m-bottom-xxl ]">
                 <div class="rvt-card rvt-card--clickable">
                   <div class="rvt-card__image">
                     <img
