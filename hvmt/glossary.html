@@ -248,9 +248,11 @@
           style="width: 100%; height: 100%"
         />
         <div class="rvt-container-lg rvt-p-top-3-xl">
-          <div class=" is-relative">
+          <div class="is-relative">
             <div class="rvt-p-all-3-sm">
-              <h1 class="rvt-m-top-xs rvt-ts-md rvt-ts-xl-md-up rvt-text-bold rvt-color-white">
+              <h1
+                class="rvt-m-top-xs rvt-ts-md rvt-ts-xl-md-up rvt-text-bold rvt-color-white"
+              >
                 Data Glossary
               </h1>
             </div>
@@ -258,15 +260,11 @@
         </div>
       </div>
       <div
-        class="rvt-layout__wrapper rvt-layout__wrapper--details rvt-container-sm "
+        class="rvt-layout__wrapper rvt-layout__wrapper--details rvt-container-sm"
       >
-
-      
-
-
-        <div class="rvt-layout__content [ rvt-p-top-xxl ] ">
+        <div class="rvt-layout__content [ rvt-p-top-xxl ]">
           <div class="rvt-prose rvt-flow">
-<!-- 
+            <!-- 
             <nav
               class="rvt-flex rvt-items-center"
               role="navigation"
@@ -311,7 +309,6 @@
               <h2 class="rvt-grow-1 rvt-ts-22 rvt-text-medium">
                 Data Glossary
               </h2>
-              
             </div>
 
             <!-- **********************************************************
@@ -324,9 +321,7 @@
                   class="rvt-accordion__toggle"
                   data-rvt-accordion-trigger
                 >
-                  <span class="rvt-accordion__toggle-text"
-                    >Susceptibility</span
-                  >
+                  <span class="rvt-accordion__toggle-text">Exposure</span>
                   <div class="rvt-accordion__toggle-icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -346,22 +341,278 @@
                 </button>
               </h3>
               <div class="rvt-accordion__panel" data-rvt-accordion-panel>
-                <p class="rvt-m-all-remove">
-                  Develop the skills you need for a rewarding career, and follow
-                  in the footsteps of more than 729,000 IU alumni who are
-                  leading organizations, innovating the future, and making an
-                  impact on their communities and the world.
-                </p>
+                <table class="rvt-table-compact">
+                  <caption class="rvt-sr-only">
+                    American Community Survey 2018-2022 5-Year Estimates, 2022
+                    Department of Local Government Finance Real Property, and
+                    NOAA Urban Heat Island Mapping Campaign
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Dashboard Name</th>
+                      <th scope="col">Metadata</th>
+                      <th scope="col">Column Name</th>
+                      <th scope="col">Source</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Temperature AM</th>
+                      <td>
+                        Average Near Surface Temperature Captured in Fahrenheit
+                        from 6-7am in CAPA-NOAA Heat Watch Campaign
+                      </td>
+                      <td>AM_TEMP</td>
+                      <td>NOAA Urban Heat Island Mapping Campaign</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Temperature AF</th>
+                      <td>
+                        Average Near Surface Temperature Captured in Fahrenheit
+                        from 3-4pm in CAPA-NOAA Heat Watch Campaign
+                      </td>
+                      <td>AF_TEMP</td>
+                      <td>NOAA Urban Heat Island Mapping Campaign</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Temperature PM</th>
+                      <td>
+                        Average Near Surface Temperature Captured in Fahrenheit
+                        on August 23rd, 2021 from 7-8pm in CAPA-NOAA Heat Watch
+                        Campaign
+                      </td>
+                      <td>PM_TEMP</td>
+                      <td>NOAA Urban Heat Island Mapping Campaign</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Heat Index AM</th>
+                      <td>
+                        Average Heat Index Captured in Fahrenheit on August
+                        23rd, 2021 from 6-7am in CAPA-NOAA Heat Watch Campaign
+                      </td>
+                      <td>AM_HI</td>
+                      <td>NOAA Urban Heat Island Mapping Campaign</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Heat Index AF</th>
+                      <td>
+                        Average Heat Index Captured in Fahrenheit on August
+                        23rd, 2021 from 3-4pm in CAPA-NOAA Heat Watch Campaign
+                        (check CAPA definition)
+                      </td>
+                      <td>AF_HI</td>
+                      <td>NOAA Urban Heat Island Mapping Campaign</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Heat Index PM</th>
+                      <td>
+                        Average Heat Index Captured in Fahrenheit on August
+                        23rd, 2021 from 7-8pm in CAPA-NOAA Heat Watch Campaign
+                      </td>
+                      <td>PM_HI</td>
+                      <td>NOAA Urban Heat Island Mapping Campaign</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <h3 class="rvt-accordion__summary">
+                <button
+                  class="rvt-accordion__toggle"
+                  data-rvt-accordion-trigger
+                >
+                  <span class="rvt-accordion__toggle-text">Susceptibility</span>
+                  <div class="rvt-accordion__toggle-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <g fill="currentColor">
+                        <path
+                          class="rvt-accordion__icon-bar"
+                          d="M8,15a1,1,0,0,1-1-1V2A1,1,0,0,1,9,2V14A1,1,0,0,1,8,15Z"
+                        />
+                        <path d="M14,9H2A1,1,0,0,1,2,7H14a1,1,0,0,1,0,2Z" />
+                      </g>
+                    </svg>
+                  </div>
+                </button>
+              </h3>
+              <div class="rvt-accordion__panel" data-rvt-accordion-panel>
+                <table class="rvt-table-compact">
+                  <caption class="rvt-sr-only">
+                    American Community Survey 2018-2022 5-Year Estimates
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Dashboard Name</th>
+                      <th scope="col">Metadata</th>
+                      <th scope="col">Column Name</th>
+                      <th scope="col">Source</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Age, Older</th>
+                      <td>% of the Population Over 65</td>
+                      <td>O65</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Age, Younger</th>
+                      <td>% of the Population Under 5</td>
+                      <td>U5</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Social Isolation</th>
+                      <td>% of the Population Over 65 and Living Alone</td>
+                      <td>O65_ALONE</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Education</th>
+                      <td>
+                        % of Population Over 25 Without a High School Diploma
+                      </td>
+                      <td>NO_HS</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Language Barrier</th>
+                      <td>% of Households with Limited English*</td>
+                      <td>LMTD_ENG</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Poverty</th>
+                      <td>
+                        % of Householders Under the Poverty Line in the Past 12
+                        Months
+                      </td>
+                      <td>HH_POV</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Race/Ethnicity</th>
+                      <td>% of Population a Race Other than White</td>
+                      <td>NON_WHITE</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Health Insurance</th>
+                      <td>% of Population Without Health Insurance</td>
+                      <td>NO_INSUR</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <h3 class="rvt-accordion__summary">
+                <button
+                  class="rvt-accordion__toggle"
+                  data-rvt-accordion-trigger
+                >
+                  <span class="rvt-accordion__toggle-text"
+                    >Adaptive Capacity
+                  </span>
+                  <div class="rvt-accordion__toggle-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <g fill="currentColor">
+                        <path
+                          class="rvt-accordion__icon-bar"
+                          d="M8,15a1,1,0,0,1-1-1V2A1,1,0,0,1,9,2V14A1,1,0,0,1,8,15Z"
+                        />
+                        <path d="M14,9H2A1,1,0,0,1,2,7H14a1,1,0,0,1,0,2Z" />
+                      </g>
+                    </svg>
+                  </div>
+                </button>
+              </h3>
+              <div class="rvt-accordion__panel" data-rvt-accordion-panel>
+                <table class="rvt-table-compact">
+                  <caption class="rvt-sr-only">
+                    American Community Survey 2018-2022 5-Year Estimates and
+                    2022 Department of Local Government Finance Real Property
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Dashboard Name</th>
+                      <th scope="col">Metadata</th>
+                      <th scope="col">Column Name</th>
+                      <th scope="col">Source</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Renter Occupied</th>
+                      <td>% of Housing Units that are Renter Occupied</td>
+                      <td>RENT</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Vehicle Access</th>
+                      <td>% of Households Without Access to a Vehicle</td>
+                      <td>NO_VEH</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Internet Access</th>
+                      <td>% of Households Without an Internet Subscription</td>
+                      <td>NO_INTER</td>
+                      <td>
+                        American Community Survey 2018-2022 5-Year Estimates
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">A.C. Access</th>
+                      <td>
+                        % of Residential Dwellings Without Central Air
+                        Conditioning
+                      </td>
+                      <td>NO_AC</td>
+                      <td>
+                        2022 Department of Local Government Finance Real
+                        Property
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
-                
-              </div>
               <h3 class="rvt-accordion__summary">
                 <button
                   class="rvt-accordion__toggle"
                   data-rvt-accordion-trigger
                 >
                   <span class="rvt-accordion__toggle-text"
-                    >Find your calling</span
+                    >Layers and Filters</span
                   >
                   <div class="rvt-accordion__toggle-icon">
                     <svg
@@ -382,191 +633,96 @@
                 </button>
               </h3>
               <div class="rvt-accordion__panel" data-rvt-accordion-panel>
-                <p class="rvt-m-all-remove">
-                  IU offers more than 2,300 different programs of study. Not
-                  sure what to focus on? No problem. Browse by interest area to
-                  find options you'd enjoy pursuing.
-                </p>
+                <table class="rvt-table-compact">
+                  <caption class="rvt-sr-only">
+                    Additional Metadata Information
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Dashboard Name</th>
+                      <th scope="col">Metadata</th>
+                      <th scope="col">Column Name</th>
+                      <th scope="col">Source</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Heat Vulnerability Index</th>
+                      <td>
+                        A Heat Vulnerability Index is a tool used to identify
+                        those most vulnerable areas to extreme heat by bringing
+                        together several indicators, such as exposure,
+                        susceptibility, and adaptive capacity. (Refer to the
+                        methodology page for more information.)
+                      </td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Impervious Surface</th>
+                      <td>% of area covered by Impervious Surfaces</td>
+                      <td>PER_IMP</td>
+                      <td>
+                        2019 National Land Coverage Data Percent Developed
+                        Impervious
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Tree Canopy Cover</th>
+                      <td>% of area covered by Tree Canopy</td>
+                      <td>PER_TREE</td>
+                      <td>
+                        National Land Cover Data 2021 USFS Tree Canopy Cover
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Heat Exposure</th>
+                      <td>
+                        This layer corresponds to the selected heat exposure
+                        metric from block group level. Average near surface
+                        temperature or heat index selected from above.
+                      </td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Population</th>
+                      <td>Number of People Living in the block</td>
+                      <td>POP</td>
+                      <td>US Census Bureau 2020 Decennial Census</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Population Density</th>
+                      <td>Number of People Living Per Square Mile</td>
+                      <td>Population, Area, Pop_Densit</td>
+                      <td>US Census Bureau 2020 Decennial Census</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">AC Unit Availability</th>
+                      <td>
+                        % of Dwellings Without Access to Central Air
+                        Conditioning
+                      </td>
+                      <td>NO_AC</td>
+                      <td>
+                        2022 Department of Local Government Finance Real
+                        Property
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Building Footprint</th>
+                      <td>
+                        % of Block Area Covered by a Residential or Commerical
+                        Building (m²)
+                      </td>
+                      <td>PER_FOOT</td>
+                      <td>City of Richmond GIS Department</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-              <h3 class="rvt-accordion__summary">
-                <button
-                  class="rvt-accordion__toggle"
-                  data-rvt-accordion-trigger
-                >
-                  <span class="rvt-accordion__toggle-text"
-                    >Become the best version of yourself at IU</span
-                  >
-                  <div class="rvt-accordion__toggle-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                    >
-                      <g fill="currentColor">
-                        <path
-                          class="rvt-accordion__icon-bar"
-                          d="M8,15a1,1,0,0,1-1-1V2A1,1,0,0,1,9,2V14A1,1,0,0,1,8,15Z"
-                        />
-                        <path d="M14,9H2A1,1,0,0,1,2,7H14a1,1,0,0,1,0,2Z" />
-                      </g>
-                    </svg>
-                  </div>
-                </button>
-              </h3>
-              <div class="rvt-accordion__panel" data-rvt-accordion-panel>
-                <p class="rvt-m-all-remove">
-                  Develop the skills you need for a rewarding career, and follow
-                  in the footsteps of more than 729,000 IU alumni who are
-                  leading organizations, innovating the future, and making an
-                  impact on their communities and the world.
-                </p>
-              </div>
-              <h3 class="rvt-accordion__summary">
-                <button
-                  class="rvt-accordion__toggle"
-                  data-rvt-accordion-trigger
-                >
-                  <span class="rvt-accordion__toggle-text"
-                    >Find your calling</span
-                  >
-                  <div class="rvt-accordion__toggle-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                    >
-                      <g fill="currentColor">
-                        <path
-                          class="rvt-accordion__icon-bar"
-                          d="M8,15a1,1,0,0,1-1-1V2A1,1,0,0,1,9,2V14A1,1,0,0,1,8,15Z"
-                        />
-                        <path d="M14,9H2A1,1,0,0,1,2,7H14a1,1,0,0,1,0,2Z" />
-                      </g>
-                    </svg>
-                  </div>
-                </button>
-              </h3>
-              <div class="rvt-accordion__panel" data-rvt-accordion-panel>
-                <p class="rvt-m-all-remove">
-                  IU offers more than 2,300 different programs of study. Not
-                  sure what to focus on? No problem. Browse by interest area to
-                  find options you'd enjoy pursuing.
-                </p>
-              </div>
-              <h3 class="rvt-accordion__summary">
-                <button
-                  class="rvt-accordion__toggle"
-                  data-rvt-accordion-trigger
-                >
-                  <span class="rvt-accordion__toggle-text"
-                    >Become the best version of yourself at IU</span
-                  >
-                  <div class="rvt-accordion__toggle-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                    >
-                      <g fill="currentColor">
-                        <path
-                          class="rvt-accordion__icon-bar"
-                          d="M8,15a1,1,0,0,1-1-1V2A1,1,0,0,1,9,2V14A1,1,0,0,1,8,15Z"
-                        />
-                        <path d="M14,9H2A1,1,0,0,1,2,7H14a1,1,0,0,1,0,2Z" />
-                      </g>
-                    </svg>
-                  </div>
-                </button>
-              </h3>
-              <div class="rvt-accordion__panel" data-rvt-accordion-panel>
-                <p class="rvt-m-all-remove">
-                  Develop the skills you need for a rewarding career, and follow
-                  in the footsteps of more than 729,000 IU alumni who are
-                  leading organizations, innovating the future, and making an
-                  impact on their communities and the world.
-                </p>
-              </div>
-              <h3 class="rvt-accordion__summary">
-                <button
-                  class="rvt-accordion__toggle"
-                  data-rvt-accordion-trigger
-                >
-                  <span class="rvt-accordion__toggle-text"
-                    >Find your calling</span
-                  >
-                  <div class="rvt-accordion__toggle-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                    >
-                      <g fill="currentColor">
-                        <path
-                          class="rvt-accordion__icon-bar"
-                          d="M8,15a1,1,0,0,1-1-1V2A1,1,0,0,1,9,2V14A1,1,0,0,1,8,15Z"
-                        />
-                        <path d="M14,9H2A1,1,0,0,1,2,7H14a1,1,0,0,1,0,2Z" />
-                      </g>
-                    </svg>
-                  </div>
-                </button>
-              </h3>
-              <div class="rvt-accordion__panel" data-rvt-accordion-panel>
-                <p class="rvt-m-all-remove">
-                  IU offers more than 2,300 different programs of study. Not
-                  sure what to focus on? No problem. Browse by interest area to
-                  find options you'd enjoy pursuing.
-                </p>
-              </div>
-              <h3 class="rvt-accordion__summary">
-                <button
-                  class="rvt-accordion__toggle"
-                  data-rvt-accordion-trigger
-                >
-                  <span class="rvt-accordion__toggle-text"
-                    >Pursue your passion or explore the possibilities</span
-                  >
-                  <div class="rvt-accordion__toggle-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                    >
-                      <g fill="currentColor">
-                        <path
-                          class="rvt-accordion__icon-bar"
-                          d="M8,15a1,1,0,0,1-1-1V2A1,1,0,0,1,9,2V14A1,1,0,0,1,8,15Z"
-                        />
-                        <path d="M14,9H2A1,1,0,0,1,2,7H14a1,1,0,0,1,0,2Z" />
-                      </g>
-                    </svg>
-                  </div>
-                </button>
-              </h3>
-              <div
-                class="rvt-accordion__panel"
-                data-rvt-accordion-panel
-              >
-                <p class="rvt-m-all-remove">
-                  From nursing to criminal justice, epidemiology to
-                  environmental science, social work to cybersecurity, and more
-                  than 900 academic programs in between, IU gives you the power
-                  to study whatever sparks your interest, with the support of
-                  world-class professors and faculty who care about your
-                  success.
-                </p>
-              </div>
+              
             </div>
-
-
-          
-
-
           </div>
         </div>
       </div>
